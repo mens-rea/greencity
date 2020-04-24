@@ -1,0 +1,4 @@
+<h4>{{yield}}</h4>
+
+<input type="text" placeholder={{this.placeholder}} value={{value}} {{on "change" this.updateEntry}} >
+<button type="button" {{on "click" this.submitEntry}}>Submit</button>

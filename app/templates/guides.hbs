@@ -1,0 +1,9 @@
+We have compiled the best guides for you to grow your own vegetables in the city
+
+<EntrySubmission>Submit your guides here</EntrySubmission>
+
+<div>
+  {{#each @model as |guide|}}
+    <Card @item={{guide}} />
+  {{/each}}
+</div>
