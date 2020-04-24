@@ -11,8 +11,12 @@ export default Mirage.Factory.extend({
     return "https://picsum.photos/300/200";
   },
 
-  content() {
+  description() {
     return faker.lorem.sentence();
+  },
+
+  content() {
+    return faker.lorem.paragraphs();
   },
 
 });

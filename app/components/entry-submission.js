@@ -8,7 +8,8 @@ import { inject as service } from '@ember/service';
 export default class EntrySubmissionComponent extends Component {
   @service store;
   @tracked value;
-  placeholder = 'Enter your guide';
+  @tracked content;
+  placeholder = 'Title of your guide';
 
   @action
   updateEntry(event) {
@@ -21,7 +22,8 @@ export default class EntrySubmissionComponent extends Component {
     this.store.createRecord('guide', {
       title: this.value,
       image: "https://picsum.photos/300/200",
-      content: faker.lorem.sentence()
+      description: faker.lorem.sentence(),
+      content: this.content
     }).save();
   }
 }
