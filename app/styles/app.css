@@ -6,8 +6,40 @@ h2 {
   color: #2e2e2e;
 }
 
+.header {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.header h1 {
+  margin-bottom: 0px;
+  color: #5a822b;
+}
+.header h2 {
+  margin-top: 5px;
+}
+
+.nav {
+  margin: 30px 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+.nav li {
+  float: left;
+}
+.nav li a {
+  background-color: #2e2e2e;
+  font-weight: 800;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+.nav li a:hover {
+  background-color: #5a822b;
+}
+
 .content {
   overflow: hidden;
+  margin-top: 60px;
 }
 
 .card {

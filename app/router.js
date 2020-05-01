@@ -12,4 +12,5 @@ Router.map(function() {
   this.route('guide', {
     path: 'guides/:guide_id'
   });
+  this.route('contribute');
 });
