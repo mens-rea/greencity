@@ -1,7 +1,6 @@
-# greencity
+# Greencity
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A platform where we can compile all our knowledge of things that grow.
 
 ## Prerequisites
 
@@ -46,7 +45,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+No deployment options for now
 
 ## Further Reading / Useful Links
 
