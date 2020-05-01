@@ -55,3 +55,31 @@ h2 {
 .card h3, .card p {
   padding: 0px 15px;
 }
+
+.entry-container {
+  margin-bottom: 30px;
+  overflow: hidden;
+  width: 50%;
+}
+.in-title {
+  margin-bottom: 15px;
+  width: 96%;
+  padding: 5px 15px;
+  font-size: 18px;
+}
+.fr-box {
+  width: 100%;
+}
+.in-button {
+  margin-top: 30px;
+  border: 0px;
+  background-color: #5a822b;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+}
+.in-button:hover {
+  background-color: #2e2e2e;
+}
