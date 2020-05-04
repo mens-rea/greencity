@@ -1,6 +1,5 @@
-<h3>{{yield}}</h3>
-
 <div class="entry-container">
+  <h3>{{yield}}</h3>
   <input class="in-title" type="text" placeholder={{this.placeholder}} value={{value}} {{on "change" this.updateEntry}} >
   <FroalaEditor @content={{this.content}} @update={{fn (mut this.content)}} />
   <button class="in-button" type="button" {{on "click" this.submitEntry}}>Submit</button>
