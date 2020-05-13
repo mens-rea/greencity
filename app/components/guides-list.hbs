@@ -1,0 +1,11 @@
+{{yield}}
+
+{{#if isGuidesEmpty}}
+  <h2>Guides not found</h2>
+{{/if}}
+
+<div>
+  {{#each @guides as |guide|}}
+    <Card @item={{guide}} />
+  {{/each}}
+</div>
