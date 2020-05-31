@@ -1,6 +1,23 @@
-<div class="card">
+{{!-- <div class="card">
   <img src={{@item.image}} />
   <h3><LinkTo @route="guide" @model={{@item.id}}>{{@item.title}}</LinkTo></h3>
 
   <p>{{@item.description}}</p>
+</div> --}}
+
+<div class="recipe-card">
+	<aside>
+		<img src={{@item.image}} alt="Chai Oatmeal" />
+	</aside>
+	<article>
+		<h2>{{@item.title}}</h2>
+		<h3>{{@item.type}}</h3>
+		<ul>
+			<li><span class="icon icon-users"></span><span>1</span></li>
+			<li><span class="icon icon-clock"></span><span>60 days</span></li>
+			<li><span class="icon icon-level"></span><span>Beginner level</span></li>
+		</ul>
+		<p>{{@item.description}}</p>
+		<p class="categories"><span>Ingredients:&nbsp;</span>Milk, salt, coriander, cardamom, cinnamon, turmeric, honey, vanilla extract, regular oats, oat bran.</p>
+	</article>
 </div>

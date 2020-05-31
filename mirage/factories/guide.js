@@ -7,12 +7,16 @@ export default Mirage.Factory.extend({
     return `${faker.name.firstName()} plant`;
   },
 
+  type() {
+    return faker.lorem.word();
+  },
+
   image() {
-    return "https://picsum.photos/300/200";
+    return "https://picsum.photos/600/300";
   },
 
   description() {
-    return faker.lorem.sentence();
+    return faker.lorem.paragraph();
   },
 
   content() {
