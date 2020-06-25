@@ -42,3 +42,45 @@ header h5 {
   margin: 10px;
   float: left;
 }
+
+.content {
+  background-color: #6a62d2;
+  width: auto;
+  height: 100%;
+  padding: 15% 10%;
+}
+
+.login-page {
+  display: block;
+  border-radius: 10px;
+  background-color: white;
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: 20px 0px
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  background-color: #746bde;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 25%;
+}
+
+.UaP {
+  margin-bottom: 10px;
+  border: none;
+  background-color: #e5e8ed;
+  height: 30px;
+  width: 25%;
+}
+
+.checkbox {
+  margin-bottom: 10px;
+  background-color: #746bde;
+  margin-left: -14%;
+}
+
