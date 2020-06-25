@@ -30,7 +30,7 @@ header h5 {
 }
 
 .container {
-  width: max-content;
+  width: 80%;
   margin: 0 auto;
   overflow: hidden;
 }
