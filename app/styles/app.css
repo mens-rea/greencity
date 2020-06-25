@@ -30,7 +30,7 @@ header h5 {
 }
 
 .container {
-  width: 80%;
+  width: 40%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -47,7 +47,11 @@ header h5 {
   background-color: #6a62d2;
   width: auto;
   height: 100%;
-  padding: 15% 10%;
+  padding: 8% 8%;
+}
+
+.title {
+  padding-bottom: 10px;
 }
 
 .login-page {
@@ -61,13 +65,12 @@ header h5 {
 }
 
 .button {
-  width: 100px;
   height: 50px;
   background-color: #746bde;
   color: white;
   border: none;
   border-radius: 5px;
-  width: 25%;
+  width: 50%;
 }
 
 .UaP {
@@ -75,7 +78,7 @@ header h5 {
   border: none;
   background-color: #e5e8ed;
   height: 30px;
-  width: 25%;
+  width: 50%;
 }
 
 .checkbox {
