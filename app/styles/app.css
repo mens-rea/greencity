@@ -20,6 +20,12 @@ ul li a {
   padding: 10px 5px;
 }
 
+a:-webkit-any-link {
+  color: #babec5;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 header h1 {
   color: #2ab516;
   margin-bottom: 5px;
@@ -75,6 +81,7 @@ header h5 {
   border: none;
   border-radius: 3px;
   width: 72%;
+  
 }
 
 .UaP {
@@ -89,6 +96,6 @@ header h5 {
 .checkbox {
   margin-bottom: 20px;
   background-color: #746bde;
-  margin-left: -48%;
+  margin-left: -44%;
+  color: #babec5;
 }
-
