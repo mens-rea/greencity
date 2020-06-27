@@ -231,22 +231,20 @@ img {
   height: 18px;
 }
 
-.login-page {
-  background-color: #6a62d2;
-  width: 40%;
-  height: 100%;
-  padding: 10% 15%;
-  overflow: hidden;
-  margin: 0 15%;
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .login-form {
   border-radius: 7px;
-  background-color: white;
-  width: auto;
+  background-color: #6a62d2;
+  width: 40%;
   height: 90%;
   text-align: center;
   padding: 20px 0px;
+  margin-bottom: 30px;
 }
 
 .title {
@@ -257,12 +255,13 @@ img {
 
 .button {
   height: 50px;
-  background-color: #746bde;
-  color: white;
+  background-color: white;
+  color: black;
   border: none;
   border-radius: 3px;
   width: 72%;
-  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
 }
 
 .UaP {
