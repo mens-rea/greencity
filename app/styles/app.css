@@ -230,3 +230,52 @@ img {
   width: 18px;
   height: 18px;
 }
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login-form {
+  border-radius: 7px;
+  background-color: #6a62d2;
+  width: 40%;
+  height: 90%;
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 30px;
+}
+
+.title {
+  padding-bottom: 20px;
+  font-family: helvetica;
+  font-size: 30px;
+}
+
+.button {
+  height: 50px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  width: 72%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+.UaP {
+  margin-bottom: 20px;
+  border: none;
+  background-color: #e5e8ed;
+  height: 50px;
+  width: 70%;
+  padding-left: 10px;
+}
+
+.checkbox {
+  margin-bottom: 20px;
+  background-color: #746bde;
+  margin-left: -44%;
+  color: #babec5;
+}
