@@ -267,12 +267,13 @@ a:-webkit-any-link {
 .button {
   height: 50px;
   background-color: #5a822b;
-  color: black;
+  color: white;
   border: none;
   border-radius: 3px;
-  width: 72%;
+  width: 70%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
+  margin-left: 14%;
 }
 
 .UaP {
@@ -289,4 +290,8 @@ a:-webkit-any-link {
   background-color: #746bde;
   margin-left: -44%;
   color: #babec5;
+}
+
+.fab fa-facebook {
+  padding-left: 30px;
 }
